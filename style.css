@@ -6,12 +6,13 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: hsl(0, 0%, 95%);
+    background-color: rgb(235, 235, 235);
+
 }
 
 #calculator{
     font-family: Arial,  sans-serif;
-    background-color: hsl(0, 0%, 15%);
+    background-color: rgb(33, 33, 33);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -22,7 +23,7 @@ body{
     width: 100%;
     font-size: 5rem;
     text-align: left;
-    background-color: hsl(0, 0%, 20%);
+    background-color: rgb(52, 52, 52);
     color: white;
     padding:0 20px;
 }
@@ -40,7 +41,7 @@ button{
     height: 100px;
     border-radius: 50px;
     border: none;
-    background-color: hsl(0, 0%, 30%);
+    background-color: rgb(63, 63, 63);
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -51,22 +52,22 @@ button{
 }
 
 button:hover{
-    background-color: hsl(0, 0%, 40%);
+    background-color: rgb(87, 87, 87);
 }
 
 button:active{
-    background-color: hsl(0, 0%, 50%);
+    background-color: rgb(115, 115, 115);
 }
 
 .operator-btn{
-    background-color: hsl(35, 100%, 55%);
+    background-color: rgb(255, 144, 18);
 }
 
 .operator-btn:hover{
-    background-color: hsl(35, 100%, 65%);
+    background-color: rgb(255, 163, 58);
 
 }
 .operator-btn:active{
-    background-color: hsl(35, 100%, 75%);
+    background-color: rgb(255, 180, 94);
 
 }
